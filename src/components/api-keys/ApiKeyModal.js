@@ -122,7 +122,7 @@ export function ApiKeyModal({ mode, selectedKey, onClose, onSubmit }) {
               onChange={(e) => setUsageLimit(e.target.value)}
             />
             <div className="text-xs text-gray-400 mt-1">
-              * If the combined usage of all your keys exceeds your plan's
+              * If the combined usage of all your keys exceeds your plan&#39;s
               limit, all requests will be rejected.
             </div>
           </div>
